@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.slick-slide > div {
+    margin: 0 10px;
+}
+.App .slick-slide {  
+    position: relative;  
+    z-index: 999; 
+    /* your choice,  but make sure z-index of active slide is higher than this value */
+  }  
+  .App .slick-slide.slick-current {  
+     z-index: 9999;  
+  }
+  .element-container {
+    z-index: -2; /* Adjust as needed */
+  }
+  .slick-slider {
+    z-index: -1; /* Adjust as needed */
+  }
+  .slick-slider,
+.element-container {
+  position: relative;
+}
+.slick-slider-container {
+    width: 100%; /* or any other size that fits your layout */
+  }
+  .slick-slider {
+    position: relative; /* or absolute, or fixed */
+  }
+  .slick-slider {
+    z-index: 1; /* or any other value that works for your layout */
+  }
