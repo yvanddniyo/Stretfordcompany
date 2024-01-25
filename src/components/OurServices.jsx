@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { OurService } from "../data/constant";
 import { Link } from "react-router-dom";
-
 const SideNavbar = () => {
   return (
     <div className=" w-full md:px-16 px-6 h-full text-white md:mt-[8em] mt-[4em]">
@@ -16,11 +15,7 @@ const SideNavbar = () => {
           <div className="grid md:grid-cols-2 gap-4 pb-20">
             {OurService.map((service, index) => (
               <div key={index} className="w-full">
-                <div
-                  data-aos="fade-left"
-                  data-aos-duration="1000"
-                  className="flex flex-col h-full bg-white shadow-xl rounded-lg overflow-hidden group"
-                >
+                <div className=" flex flex-col h-full bg-white shadow-xl rounded-lg overflow-hidden group">
                   <img
                     src={service.img}
                     alt="servicess"

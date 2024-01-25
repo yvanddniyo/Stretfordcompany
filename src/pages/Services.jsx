@@ -122,7 +122,7 @@ const Services = () => {
               </ul>
               <div data-aos="fade-left" data-aos-duration="1000" className="">
                 <img
-                  src="https://lh3.googleusercontent.com/proxy/JDqR1QqdrKij7zjbilKQXpFd4Srqennn6OtU8hOG4Uk5njAXJKNPJG4rUdcRv9DCEz0gXyYx3Sy40x_feu0EBRJ7l0XvqExk2fIt0kEBtpZwG1oH0fbDLA-xWQQWrTDT0qQhKtmNO7Ufgp4jwsntMYlmZ3EaMowkZsI7ArM5cmKyYGp1GXPkoN_mTSpGDAkj1_JSOWw"
+                  src="https://www.asutpp.com/wp-content/uploads/2023/02/industrial-electrical-installation.jpg"
                   alt="industries"
                   className="w-[90%] h-[35vh] md:ml-16 rounded-lg object-cover"
                 />

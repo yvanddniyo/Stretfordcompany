@@ -13,7 +13,7 @@ const ContactUs = () => {
 
   return (
     <div className="h-full w-full   text-white">
-      {/* <div className=" w-full h-[35vh] bg-[url('https://media.istockphoto.com/id/1365543480/video/contact-us-concept.jpg?s=640x640&k=20&c=G16GzQ4uJKlITww2ArmKNB9UKb1-IT2eyJrUxkUmAIY=')] mb-10 bg-no-repeat bg-center rounded-xl  "></div> */}
+      <div className=" w-full h-[35vh] bg-[url('https://media.istockphoto.com/id/1365543480/video/contact-us-concept.jpg?s=640x640&k=20&c=G16GzQ4uJKlITww2ArmKNB9UKb1-IT2eyJrUxkUmAIY=')] mb-10 bg-no-repeat bg-center rounded-xl  "></div>
       <div className="flex justify-center flex-col pt-2 md:px-16 px-6">
         <h2 className="text-center md:text-3xl text-2xl font-bold text-green-600">
           Contact Us

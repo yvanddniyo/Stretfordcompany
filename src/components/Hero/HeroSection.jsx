@@ -4,7 +4,6 @@ import { HeroContent } from "../../data/constant";
 // import "aos/dist/aos.css";
 import Typed from "react-typed";
 const HeroSection = () => {
-  // AOS.init();
   return (
     <div className=" w-full md:px-16 px-6  text-white">
       <div className=" md:flex pt-20 justify-between gap-12">

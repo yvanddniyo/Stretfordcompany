@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import DragHandleIcon from "@mui/icons-material/DragHandle";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link, useNavigate } from "react-router-dom";
+import "animate.css";
 
 const Navbar = ({
   navigationItems = [
@@ -40,7 +41,7 @@ const Navbar = ({
 
   return (
     <div className="w-full text-[14px]">
-      <div className="bg-gray-500 h-[5vh] w-full fixed my-6 rounded-full flex items-center md:px-12 px-6">
+      <div className="  bg-gray-500 h-[5vh] w-full fixed  flex items-center md:px-12 px-6">
         <div className="w-full flex justify-between md:justify-between text-white mx-4 font-bold tracking-wide">
           <div className="flex items-center">
             <div className="">LOGO</div>
