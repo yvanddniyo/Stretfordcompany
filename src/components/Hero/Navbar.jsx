@@ -20,7 +20,7 @@ const Navbar = ({
     setMenu(!menu);
   };
   const [menuOpen, setMenuOpen] = useState(false);
-  const history = useNavigate();
+  const navigate = useNavigate();
 
   const handleItemClick = (path) => {
     setMenuOpen(false);
