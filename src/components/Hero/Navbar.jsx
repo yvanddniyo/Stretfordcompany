@@ -23,6 +23,7 @@ const Navbar = ({
   const navigate = useNavigate();
 
   const handleItemClick = (path) => {
+    // console.log("Clicked on mobile menu item:", path);
     setMenuOpen(false);
     navigate.push(path);
   };
