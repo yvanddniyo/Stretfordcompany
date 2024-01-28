@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import DragHandleIcon from "@mui/icons-material/DragHandle";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link, useNavigate } from "react-router-dom";
-import "animate.css";
 
 const Navbar = ({
   navigationItems = [
