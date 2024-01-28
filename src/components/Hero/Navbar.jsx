@@ -23,7 +23,6 @@ const Navbar = ({
   const navigate = useNavigate();
 
   const handleItemClick = (path) => {
-    // console.log("Clicked on mobile menu item:", path);
     setMenuOpen(false);
     navigate.push(path);
   };
@@ -74,10 +73,7 @@ const Navbar = ({
             {navigationItems.map((item, index) => (
               <ul key={index} className="flex gap-6 mt-8 group w-">
                 <li className="pl-12 top-[19%]  cursor-pointer hover:text-gray-200">
-                  <Link
-                    to={item.path}
-                    onClick={() => handleItemClick(item.path)}
-                  >
+                  <Link to={item.path} onClick={handleMenu}>
                     {item.label}
                   </Link>
                 </li>
