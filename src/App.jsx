@@ -12,7 +12,7 @@ const navigationItems = [
   { path: "/contact", label: "Contact" },
 ];
 
-function App() {
+function App(){
   return (
     <div className="w-full">
       <Router>
